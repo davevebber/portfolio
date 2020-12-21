@@ -25,3 +25,13 @@
 - simplified main page added picture and portfolio button
 
 - linked all pages together
+
+- changed background to simply layout
+
+- added back button on second page
+
+- added linkedin/github icons to second page
+
+- updated media queries
+
+- added media quereies for smaller screens

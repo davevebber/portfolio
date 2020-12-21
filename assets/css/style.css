@@ -209,18 +209,12 @@ header h1 {
   
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
 
-@media screen and (max-width: 768px) {}
-
-  
-  /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
-
-  @media screen and (max-width: 575px) {
+@media screen and (max-width: 768px) {
     .grid-container {
         display: relative;
         grid-template-columns: 1fr;
        }
 
-   
      .contact-me {
         position: relative;
         clear: both;
@@ -235,6 +229,30 @@ header h1 {
     
     .phone-email {
         display: none;
-    }
+    } 
+}
+  
+  /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+
+  @media screen and (max-width: 575px) {
+    .grid-container {
+        display: relative;
+        grid-template-columns: 1fr;
+       }
+
+     .contact-me {
+        position: relative;
+        clear: both;
+        height: 10px;
+        margin-top: 350px;  
+        }
+
+    .social-icons {
+        display: inline;            
+        position: absolute;
+        }
     
-    }
+    .phone-email {
+        display: none;
+    } 
+}
