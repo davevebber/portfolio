@@ -35,3 +35,5 @@
 - updated media queries
 
 - added media quereies for smaller screens
+
+- added alt tags to HTML
