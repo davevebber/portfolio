@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dave Vebber - Portfolio</title>
+    <link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css"/>
 </head>
 <body>
@@ -11,89 +12,106 @@
 <!-- NAVIGATION SECTION START -->
 
     <header>
+        <a class="back-arrow" href="../portfolio-main/index.html">
+            <i class="fas fa-arrow-left"></i>
+        </a>
         <h1>Dave Vebber</h1>
-            <nav>
-                <ul>
-                    <li>
-                        <a href="#about-me">About Me</a>
-                    </li>
-
-                    <li>
-                        <a href="#experience">Experience</a>
-                    </li>
-
-                    <li>
-                        <a href="#education">Education</a>
-                    </li>
-
-                    <li>
-                        <a href="#contact">Contact Me</a>
-                    </li>
-
-                </ul>
-            </nav>
     </header>
 
 <!-- NAVIGATION SECTION END -->
 
 <!-- ABOUT ME SECTION START -->
 
-    <section id="about-me" class="aboutme">
+    <section class="about-me">
+        
         <h2>About Me</h2>
-    </section>
+
+            <article>
+            </br>
+                <p class="bio">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Eveniet quidem ducimus nulla hic dolor ut porro laboriosam! 
+                    Saepe nam voluptates consequatur voluptate illo, commodi voluptatum, 
+                    laboriosam facilis, dolorum quae odit.
+                </p>
+            </br>
+                <p class="bio">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Eveniet quidem ducimus nulla hic dolor ut porro laboriosam! 
+                    Saepe nam voluptates consequatur voluptate illo, commodi voluptatum, 
+                    laboriosam facilis, dolorum quae odit.
+                </p>
+            </article>
+
+        </section>
 
 <!-- ABOUT ME SECTION END -->
 
-<!-- EXPERIENCE SECTION START -->
+<!-- EXPERIENCE/WORK SECTION START -->
 
-    <aside id="experience" class="experience">
+    <section class="work">
 
-        <h2>Experience</h2>
+        <h2>Work</h2>
 
-        <!-- BUTTON START -->
+        <div class="grid-container">
 
-            <div class="container-1">
-                <button class=btn-1>HTML/CSS</button>
+            <div class="grid-item">
+                <img src="../portfolio-experience/assets/images/codingpic1.jpg">
+                <p class="project-text">Project 1</p>
             </div>
 
-            <div class="container-2">
-                <button class=btn-2>Javascript</button>
+            <div class="grid-item">
+                <a href="https://davevebber.github.io/run-buddy/"><img src="../portfolio-experience/assets/images/codingpic2.jpg"></a>
+                <p class="project-text">Run Buddy</p>
             </div>
-    
-        <!-- BUTTING END -->
-    
-    </aside>
 
-<!-- EXPERIENCE SECTION END -->
+            <div class="grid-item">
+                <img src="../portfolio-experience/assets/images/codingpic3.jpeg">
+                <p class="project-text">Project 3</p>
+            </div>
 
-<!-- CONTACT SECTION START -->
+          </div>
 
-    <section id="education">
-        <h2>Education</h2>
     </section>
 
-<!-- CONTACT SECTION END -->
+<!-- EXPERIENCE/WORK SECTION END -->
 
-<!-- FOOTER SECTION START -->
+<!-- CONTACT (FOOTER) SECTION START -->
 
-    <footer>
+    <section class="contact-me">
         
-        <h3>Contact Me</h3>
+        <h2>Contact Me</h2>
             <div>
                 <ul>
-                    <li>Cell Phone: 401.533.3649</li>
 
-                    <li>
-                        <a href="mailto:davevebber@gmail.com">davevebber@gmail.com</a>
-                    </li>
+                    <!-- CELL PHONE/EMAIL -->
+                    <div class="phone-email">
+                        <li>Cell Phone: 401.533.3649</li>
 
-                    <li>LinkedIn</li>
+                        <li>
+                            <a href="mailto:davevebber@gmail.com">davevebber@gmail.com</a>
+                        </li>
+                    </div>
+
+                    <!--SOCIAL ICONS -->
+                    <div class=social-icons> 
+                        <li>
+                            <a class="icon-links" href="https://www.linkedin.com/in/dave-vebber-717b52200/">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a class="icon-links" href="https://github.com/davevebber">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </li>
+
+                    </div>
                 </ul>
             </div>
    
-    </footer>
+    </section>
 
-<!-- FOOTER SECTION END -->
+<!-- CONTACT (FOOTER) SECTION END -->
 
-    </body>    
+</body>    
 </html>
