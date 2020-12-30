@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dave Vebber - Portfolio</title>
     <link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/style.css"/>
+    <link rel="stylesheet" href="assets/css/style2.css"/>
 </head>
 <body>
 
@@ -15,14 +15,31 @@
         <a class="back-arrow" href="../portfolio/index.html">
             <i class="fas fa-arrow-left"></i>
         </a>
-        <h1>Dave Vebber</h1>
+    
+       <h1>Dave Vebber</h1>
+
+        <nav class="nav"> 
+            <ul>
+                <li>
+                    <a href=#about-me>About Me</a>
+                    </li>
+
+                <li>
+                    <a href=#portfolio>Portfolio</a>
+                </li>
+
+                <li>
+                    <a href=#contact-me>Contact Me</a>
+                </li>
+            </ul>
+        </nav>
     </header>
 
 <!-- NAVIGATION SECTION END -->
 
 <!-- ABOUT ME SECTION START -->
 
-    <section class="about-me">
+    <section class="about-me" id=about-me>
         
         <h2>About Me</h2>
 
@@ -47,20 +64,20 @@
 
 <!-- EXPERIENCE/WORK SECTION START -->
 
-    <section class="work">
+    <section class="work" id="portfolio">
 
         <h2>Work</h2>
 
         <div class="grid-container">
 
-            <div class="grid-item">
-                <img src="../portfolio/assets/images/codingpic1.jpg" alt="picture of code on a computer as a placeholder for a future assignment">
-                <p class="project-text">Project 1 Placeholder</p>
+            <div class="grid-item-large">
+                <a href="https://davevebber.github.io/run-buddy/"><img src="../portfolio/assets/images/codingpic2.jpg" alt="picture of run-buddy a mock website i built in UCLA's coding bootcamp"></a>
+                <p class="project-text">Run Buddy</p>
             </div>
 
             <div class="grid-item">
-                <a href="https://davevebber.github.io/run-buddy/"><img src="../portfolio/assets/images/codingpic2.jpg" alt="picture of run-buddy a mock website i built in UCLA's coding bootcamp"></a>
-                <p class="project-text">Run Buddy</p>
+                <img src="../portfolio/assets/images/codingpic1.jpg" alt="picture of code on a computer as a placeholder for a future assignment">
+                <p class="project-text">Project 1 Placeholder</p>
             </div>
 
             <div class="grid-item">
@@ -75,8 +92,7 @@
 <!-- EXPERIENCE/WORK SECTION END -->
 
 <!-- CONTACT (FOOTER) SECTION START -->
-
-    <section class="contact-me">
+    <section class="contact-me" id="contact-me">
         
         <h2>Contact Me</h2>
             <div>
