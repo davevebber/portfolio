@@ -16,13 +16,9 @@ html {
     text-align: center;
 }
 
-.box p:hover { 
-    transform: scale(1.2); 
-}
-
 /* BOX STYLE END */
 
-INSIDE CONTENT STYLE START
+/* INSIDE CONTENT STYLE START */
 
 .prof-pic {
     border-radius: 50%;
